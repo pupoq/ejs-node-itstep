@@ -9,14 +9,20 @@
 
 </head>
 <body>
-    <div>
-        ads
+    <%- include("partials/header.ejs")%>
+
+    
+    <div id=content>
+        <% for(let i = 0; i < array.length; i++){%>    
+            <div id=card>
+                <h3> Model: <%= array[i].model %> </h3>
+                <p>Price: <%= array[i].price %> </p>
+                <p>Id: <%= array[i].id %> </p>
+                <p>Category: <%= array[i].categoryName %> </p>
+            </div>         
+        <% } %>
     </div>
 
-    <% for(let i = 0; i < addresses.length; i++){%>
-        <% if(addresses[i].length < 10){%>
-            <h5> <%= addresses[i] %> </h5>
-            <% }%>
-    <% } %>
+    <%- include("partials/footer.ejs")%>
 </body>
 </html>
