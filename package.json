@@ -1,0 +1,24 @@
+{
+  "name": "ejs-node-itstep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pupoq/ejs-node-itstep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pupoq/ejs-node-itstep/issues"
+  },
+  "homepage": "https://github.com/pupoq/ejs-node-itstep#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
