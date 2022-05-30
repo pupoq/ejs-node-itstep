@@ -38,14 +38,15 @@ img {
 
 #btn {
     padding: 5px;
-    box-shadow: 0 5px 5px  grey;
-    transition: 0.3s;
 
+    transition: 0.3s;
+    border: 1px solid grey;
 }
 
 #btn:hover {
     transition: 0.3s;
     background-color: rgb(236, 236, 236);
+    box-shadow: -5px 5px grey;
 }
 
 #card {
